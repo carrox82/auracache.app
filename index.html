@@ -1,8 +1,9 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>AuraCache — Save, Organize &amp; Revisit Useful Links | Link Organizer App</title>
+  <title>AuraCache — Save, Organize & Revisit Useful Links | Link Organizer App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="AuraCache helps you save and organize social posts, shopping products, study resources, articles, videos, movie and series links, and other useful pages in one focused Android app. Set reminders, keep shopping links separate, and find saved content when it matters.">
   <meta name="keywords" content="AuraCache, save links, link organizer, bookmark manager, reminders, shopping links, read later app, productivity app, Android link saver, save social media posts, organize bookmarks, link reminder app">
@@ -10,30 +11,31 @@
   <meta name="author" content="AuraCache">
   <link rel="canonical" href="https://auracache.app/">
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AuraCache">
   <meta property="og:url" content="https://auracache.app/">
   <meta property="og:title" content="AuraCache — Save Useful Links. Find Them When They Matter.">
-  <meta property="og:description" content="A focused link organizer for social posts, shopping links, articles, videos, study resources, reminders, and useful pages.">
+  <meta property="og:description" content="Save, organize, and revisit useful links in one focused Android app.">
   <meta property="og:image" content="https://auracache.app/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="AuraCache app interface showing organized links and reminders">
   <meta property="og:locale" content="en_US">
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="AuraCache — Save Useful Links. Find Them When They Matter.">
-  <meta name="twitter:description" content="Save, organize, and revisit useful links in one focused app.">
+  <meta name="twitter:description" content="Save, organize, and revisit useful links in one focused Android app.">
   <meta name="twitter:image" content="https://auracache.app/og-image.png">
   <meta name="twitter:image:alt" content="AuraCache app interface showing organized links and reminders">
 
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW6B66FDKB"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-YW6B66FDKB');</script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)}
+    gtag('js', new Date());
+    gtag('config', 'G-YW6B66FDKB');
+  </script>
 
-  <!-- Favicons & Manifest -->
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -41,13 +43,11 @@
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#f4efe4">
 
-  <!-- Fonts & Stylesheet -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
-  <!-- Structured Data: MobileApplication -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -62,11 +62,12 @@
       "@type": "Organization",
       "name": "AuraCache",
       "url": "https://auracache.app/"
-    }
+    },
+    "downloadUrl": "https://play.google.com/store/apps/details?id=com.auracache.app",
+    "installUrl": "https://play.google.com/store/apps/details?id=com.auracache.app"
   }
   </script>
 
-  <!-- Structured Data: FAQPage (Google Rich Results) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -93,14 +94,13 @@
         "name": "Does AuraCache require AI?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. Core saving, organization, shopping, and reminder features work without AI. Optional AI-powered features are available with a supported API key."
+          "text": "No. Core saving, organization, shopping, and reminder features work without AI."
         }
       }
     ]
   }
   </script>
 
-  <!-- Structured Data: WebSite -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -111,11 +111,8 @@
   </script>
 </head>
 <body>
-
-  <!-- Skip to Content (Accessibility) -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <!-- ===== HEADER ===== -->
   <header class="site-header" role="banner">
     <div class="container nav">
       <a class="brand" href="#top" aria-label="AuraCache home">
@@ -132,9 +129,8 @@
         <a href="#faq">FAQ</a>
       </nav>
 
-      <a class="nav-pill" href="mailto:hello@auracache.app">Contact</a>
+      <a class="nav-pill" href="https://play.google.com/store/apps/details?id=com.auracache.app" target="_blank" rel="noopener">Google Play</a>
 
-      <!-- Hamburger toggle (mobile only) -->
       <button class="hamburger" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileNav">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
@@ -142,20 +138,16 @@
       </button>
     </div>
 
-    <!-- Mobile Navigation Overlay -->
     <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
       <a href="#features">Features</a>
       <a href="#languages">Languages</a>
       <a href="#devices">Devices</a>
       <a href="#faq">FAQ</a>
-      <a href="mailto:hello@auracache.app" class="mobile-nav-contact">Contact</a>
+      <a href="https://play.google.com/store/apps/details?id=com.auracache.app" target="_blank" rel="noopener" class="mobile-nav-contact">Get it on Google Play</a>
     </nav>
   </header>
 
-  <!-- ===== MAIN CONTENT ===== -->
   <main id="main-content">
-
-    <!-- Hero -->
     <section class="hero" id="top" aria-labelledby="hero-heading">
       <div class="container hero-grid">
         <div class="hero-copy" data-reveal>
@@ -163,8 +155,8 @@
           <h1 id="hero-heading">Save useful links.<br><span>Find them when they matter.</span></h1>
           <p class="hero-lead">AuraCache keeps social posts, shopping products, study resources, articles, videos, movie and series pages, and other useful links in one organized place.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#features">Explore AuraCache</a>
-            <a class="btn btn-secondary" href="#languages">Language Support</a>
+            <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.auracache.app" target="_blank" rel="noopener">Get it on Google Play</a>
+            <a class="btn btn-secondary" href="#features">Explore features</a>
           </div>
           <p class="hero-note">AuraCache does not host social posts, movies, or series. It helps you save and organize links to external content.</p>
         </div>
@@ -176,7 +168,6 @@
       </div>
     </section>
 
-    <!-- Features -->
     <section class="section feature-showcase" id="features" aria-labelledby="features-heading">
       <div class="container feature-layout">
         <div class="section-copy" data-reveal>
@@ -202,34 +193,33 @@
           </article>
           <article class="feature-card" data-reveal>
             <span>04</span>
-            <h3>Optional smart summaries</h3>
-            <p>Core features work without AI. Optional supported API-key features can improve titles, metadata, and summaries.</p>
+            <h3>Organized previews</h3>
+            <p>Keep titles, descriptions, thumbnails, categories, and notes easier to review later.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- App Screens -->
     <section class="section app-screens" aria-labelledby="screens-heading">
       <div class="container">
         <div class="section-header center" data-reveal>
           <p class="kicker">App areas</p>
           <h2 id="screens-heading">Focused screens, not a cluttered feed.</h2>
-          <p>Home, shopping, and profile controls keep your saved links organized by intent.</p>
+          <p>Home, shopping, reminders, and profile controls keep your saved links organized by intent.</p>
         </div>
         <div class="screen-row">
           <article class="screen-card" data-reveal>
-            <img src="images/home.png" alt="AuraCache home screen displaying saved links organized in visual folders with recent saves and platform categories" loading="lazy" decoding="async">
+            <img src="images/home.png" alt="AuraCache home screen displaying saved links organized in visual cards with recent saves and platform categories" loading="lazy" decoding="async">
             <h3>Home</h3>
             <p>Visual saved links, folders, platforms, and recent saves.</p>
           </article>
           <article class="screen-card" data-reveal>
-            <img src="images/shop.png" alt="AuraCache shopping screen with product links organized in shelves for comparing and buying later" loading="lazy" decoding="async">
+            <img src="images/shop.png" alt="AuraCache shopping screen with product links organized for checking again later" loading="lazy" decoding="async">
             <h3>Shop</h3>
-            <p>Product links and shelves for comparing or buying later.</p>
+            <p>Product links and shopping saves for checking again later.</p>
           </article>
           <article class="screen-card" data-reveal>
-            <img src="images/profile.png" alt="AuraCache profile settings screen with language, reminders, notifications, and privacy controls" loading="lazy" decoding="async">
+            <img src="images/profile.png" alt="AuraCache profile settings screen with language, reminders, notifications, privacy, and account controls" loading="lazy" decoding="async">
             <h3>Profile</h3>
             <p>Language, reminders, notifications, privacy, and settings.</p>
           </article>
@@ -237,16 +227,15 @@
       </div>
     </section>
 
-    <!-- Language Support -->
     <section class="section language-section" id="languages" aria-labelledby="languages-heading">
       <div class="container split-section">
         <div class="section-copy" data-reveal>
           <p class="kicker">Multi-language support</p>
           <h2 id="languages-heading">Built for more than one language.</h2>
           <ul class="clean-list">
-            <li>Current interface language support can include Turkish, English, and Spanish depending on app configuration.</li>
-            <li>More languages can be added as the product expands.</li>
-            <li>Users can keep reminders and settings easier to understand in their preferred app language.</li>
+            <li>Interface language support includes English, Turkish, and Spanish.</li>
+            <li>More languages can be added as AuraCache expands.</li>
+            <li>Users can manage reminders and settings in a clearer app language experience.</li>
           </ul>
         </div>
         <div class="visual-panel" data-reveal>
@@ -255,7 +244,6 @@
       </div>
     </section>
 
-    <!-- Compatible Devices -->
     <section class="section device-section" id="devices" aria-labelledby="devices-heading">
       <div class="container split-section reverse">
         <div class="visual-panel" data-reveal>
@@ -266,24 +254,22 @@
           <h2 id="devices-heading">Designed around Android-first usage.</h2>
           <ul class="clean-list">
             <li>Optimized for modern Android phones.</li>
-            <li>Responsive layouts can support larger screens as the product grows.</li>
-            <li>Reminder-focused usage is designed to stay practical and easy to read.</li>
+            <li>Built with responsive layouts for practical daily use.</li>
+            <li>Reminder-focused usage is designed to stay easy to read and manage.</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- Why AuraCache -->
     <section class="section why-section" aria-labelledby="why-heading">
       <div class="container why-card" data-reveal>
         <p class="kicker">Why AuraCache</p>
         <h2 id="why-heading">Bookmarks store pages. AuraCache brings useful links back.</h2>
         <p>Save links with intent, keep shopping separate, add reminders, and return to content when it is still useful.</p>
-        <a class="btn btn-primary" href="mailto:hello@auracache.app">Contact AuraCache</a>
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.auracache.app" target="_blank" rel="noopener">Get it on Google Play</a>
       </div>
     </section>
 
-    <!-- FAQ -->
     <section class="section faq-section" id="faq" aria-labelledby="faq-heading">
       <div class="container">
         <div class="section-header center" data-reveal>
@@ -306,10 +292,8 @@
         </div>
       </div>
     </section>
-
   </main>
 
-  <!-- ===== FOOTER ===== -->
   <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
       <div>
@@ -342,6 +326,7 @@
         </div>
       </div>
       <div class="footer-links">
+        <a href="https://play.google.com/store/apps/details?id=com.auracache.app" target="_blank" rel="noopener">Google Play</a>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
         <a href="delete-account/">Delete Account</a>
@@ -349,65 +334,75 @@
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>&copy; 2025 AuraCache. All rights reserved.</p>
+      <p>&copy; 2026 AuraCache. All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- Scroll to Top Button -->
   <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path d="M10 16V4M10 4L4 10M10 4L16 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   </button>
 
-  <!-- ===== SCRIPTS ===== -->
   <script>
-  /* Intersection Observer — Reveal animations */
   (function(){
-    var items=document.querySelectorAll('[data-reveal]');
-    if(!('IntersectionObserver' in window)){items.forEach(function(i){i.classList.add('is-visible')});return}
-    var o=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('is-visible');o.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -5% 0px'});
-    items.forEach(function(i){o.observe(i)});
+    var items = document.querySelectorAll('[data-reveal]');
+    if (!('IntersectionObserver' in window)) {
+      items.forEach(function(i){ i.classList.add('is-visible'); });
+      return;
+    }
+    var o = new IntersectionObserver(function(e){
+      e.forEach(function(x){
+        if (x.isIntersecting) {
+          x.target.classList.add('is-visible');
+          o.unobserve(x.target);
+        }
+      });
+    }, {threshold:.12, rootMargin:'0px 0px -5% 0px'});
+    items.forEach(function(i){ o.observe(i); });
   })();
 
-  /* Hamburger menu toggle */
   (function(){
-    var toggle=document.getElementById('menuToggle');
-    var nav=document.getElementById('mobileNav');
-    if(!toggle||!nav)return;
-    toggle.addEventListener('click',function(){
-      var isOpen=this.getAttribute('aria-expanded')==='true';
-      this.setAttribute('aria-expanded',String(!isOpen));
+    var toggle = document.getElementById('menuToggle');
+    var nav = document.getElementById('mobileNav');
+    if (!toggle || !nav) return;
+    toggle.addEventListener('click', function(){
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', String(!isOpen));
       nav.classList.toggle('is-open');
       document.body.classList.toggle('nav-open');
     });
     nav.querySelectorAll('a').forEach(function(link){
-      link.addEventListener('click',function(){
-        toggle.setAttribute('aria-expanded','false');
+      link.addEventListener('click', function(){
+        toggle.setAttribute('aria-expanded', 'false');
         nav.classList.remove('is-open');
         document.body.classList.remove('nav-open');
       });
     });
   })();
 
-  /* Header scroll effect + Scroll-to-top button */
   (function(){
-    var header=document.querySelector('.site-header');
-    var scrollBtn=document.getElementById('scrollTop');
-    var ticking=false;
-    window.addEventListener('scroll',function(){
-      if(!ticking){
+    var header = document.querySelector('.site-header');
+    var scrollBtn = document.getElementById('scrollTop');
+    var ticking = false;
+    window.addEventListener('scroll', function(){
+      if (!ticking) {
         requestAnimationFrame(function(){
-          var y=window.scrollY;
-          if(header)header.classList.toggle('scrolled',y>30);
-          if(scrollBtn)scrollBtn.classList.toggle('visible',y>600);
-          ticking=false;
+          var y = window.scrollY;
+          if (header) header.classList.toggle('scrolled', y > 30);
+          if (scrollBtn) scrollBtn.classList.toggle('visible', y > 600);
+          ticking = false;
         });
-        ticking=true;
+        ticking = true;
       }
     });
-    if(scrollBtn){scrollBtn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})})}
+    if (scrollBtn) {
+      scrollBtn.addEventListener('click', function(){
+        window.scrollTo({top:0, behavior:'smooth'});
+      });
+    }
   })();
   </script>
 </body>
 </html>
+```
